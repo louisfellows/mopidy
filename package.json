@@ -10,7 +10,9 @@
     "type": "git"
   },
   "author": "Chris Rohlfs <chrisrohlfs@outlook.com>",
-  "dependencies": {},
+  "dependencies": {
+    "ws": "7.0.0"
+  },
   "scripts": {
     "build": "tsc",
     "test": "node ./node_modules/jest/bin/jest.js",
