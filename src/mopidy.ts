@@ -1,3 +1,5 @@
+var WebSocket = require('ws')
+
 export default class MopidyClient {
   socket: WebSocket;
   pendingRequests = new Map<number, {resolve: (value?: any) => void, reject: (reason?: any) => void}>();
