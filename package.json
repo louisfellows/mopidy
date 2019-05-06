@@ -1,15 +1,15 @@
 {
-  "name": "mopidy-es6",
+  "name": "mopidy-es6-ws",
   "version": "0.0.5",
-  "description": "ES6 lib for controlling a Mopidy music server over a WebSocket",
+  "description": "ES6 lib for controlling a Mopidy music server over a WebSocket, with added WS for use on node server",
   "main": "lib/mopidy.js",
   "typings": "lib/mopidy.d.ts",
   "license": "Apache-2.0",
   "repository": {
-    "url": "https://github.com/crohlfs/mopidy.git",
+    "url": "git+https://github.com/louisfellows/mopidy.git",
     "type": "git"
   },
-  "author": "Chris Rohlfs <chrisrohlfs@outlook.com>",
+  "author": "Louis Fellows <louisfellows@gmail.com>",
   "dependencies": {
     "ws": "7.0.0"
   },
@@ -34,5 +34,15 @@
       "tsx",
       "js"
     ]
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/louisfellows/mopidy/issues"
+  },
+  "homepage": "https://github.com/louisfellows/mopidy#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [
+    "mopidy"
+  ]
 }
