@@ -39,9 +39,6 @@
     "url": "https://github.com/louisfellows/mopidy/issues"
   },
   "homepage": "https://github.com/louisfellows/mopidy#readme",
-  "directories": {
-    "lib": "lib"
-  },
   "keywords": [
     "mopidy"
   ]
