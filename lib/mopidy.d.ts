@@ -806,6 +806,6 @@ declare class Mopidy {
 	}
 }
 
-declare module 'mopidy-es6' {
+declare module 'mopidy-es6-ws' {
     export default Mopidy;
 }
